@@ -18,7 +18,7 @@ solución? Describan el papel de las clases creadas. R//
 Usamos POO para modelar elementos reales:
  productos: Almacena el nombre y precio de cada artículo.
  Ventas: Registra los productos vendidos, calcula el ingreso total y genera el detalle por producto.
- Esto hace el código más claro, ordenado y fácil de ampliar.
+ Esto hace el código más claro, ordenado y fácil de ampliar
 
  3. ¿De qué manera el uso de GitHub facilitó el trabajo colaborativo
 en equipo? Den un ejemplo concreto GitHub permitió que ambos integrantes trabajáramos al mismo tiempo sin conflictos. Subíamos cambios por separado y los uníamos con seguridad. Ejemplo: facilita el trabajo colaborativo
