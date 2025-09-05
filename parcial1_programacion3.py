@@ -32,6 +32,71 @@ class GestorVentas:
                  total =producto.precio * cantidad
                  self.ventas.append((producto,cantidad,total))
                  print(f"Venta registrada: {cantidad} x {producto.nombre} = ${total}")
+                 
+                 return
+             print("Producto no encontrado en el catalogo")
+
+    
+    def mostrar_reporte(self,ordenar_por = "ingreso"):
+        print("\n === Reporte de ventas ===")
+        if not self.ventas:
+         print("No hay ventas registradas.")
+        return
+    
+
+    # resumen de productos.
+
+    resumen = {}
+
+    for producto, cantidad,total in self.ventas:
+        if producto.nombre not in resumen:
+            resumen[producto.nombre]= {
+                "producto": producto;
+                "cantidad": 0;
+                "ingreso": 0;
+            }
+            
+    resumen[producto.nombre]["Cantidad"] += cantidad
+    resumen[producto.nombre["ingreso"]] += total
+
+    # ordenando segun la clave elegida.
+
+    orden = sorted( 
+        resumen.values(),
+        key= lamba X: x[ordenar_por],
+        reverse=True
+    )
+
+     # Mostrar
+    print(f"{'Producto':<15}{'Cantidad':<10}{'Ingreso($)':<10}")
+    for item in orden:
+        print(f"{item['producto'].nombre:<15}{item['cantidad']:<10}{item['ingreso']:<10.2f}")
+
+
+    # ejemplo de uso.
+
+    if __name__=="_main_"
+
+
+
+
+    
+
+  
+
+    
+
+            
+
+    
+
+
+
+
+
+
+
+
 
 
 
