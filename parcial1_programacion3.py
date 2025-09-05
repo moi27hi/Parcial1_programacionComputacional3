@@ -1,25 +1,41 @@
 #Enunciado
 
-class ventas:
+class Producto:
 
-<<<<<<< HEAD
+    def __init__(self,codigo,nombre,categoria,precio):
+        self.codigo = codigo
+        self.nombre = nombre
+        self.categoria = categoria
+        self.precio = precio
+
+
+
+class GestorVentas:
     def __init__(self):
+        self.catalogo = []
+        self.ventas = []
+
+    def agregar_producto(self,producto):
+        self.catalogo.append(producto)
+        print(f'Producto agregado : {Producto.no}')
 
 
-        pass
-=======
-    def __init__(self,nombre_producto,precio_unitario):
-        self.nombre_producto = nombre_producto
-        self.precio_unitario = precio_unitario
-
-        venta = []
+        
 
 
     def registrar_venta(self):
          self.nombre_producto = input("Ingrese el nombre del producto")
+         cantidad = int(input("Ingrese la cantidad: "))
 
-         
+         for producto in self.catalogo:
+             if producto.nombre == nombre_producto: 
+                 total =producto.precio * cantidad
+                 self.ventas.append((producto,cantidad,total))
+                 print(f"Venta registrada: {cantidad} x {producto.nombre} = ${total}")
+
+
+
+
 
     
     
->>>>>>> 1e1449f7af4396fb0295762a998e58c6861d1d43
