@@ -21,7 +21,9 @@ Usamos POO para modelar elementos reales:
  Esto hace el código más claro, ordenado y fácil de ampliar.
 
  3. ¿De qué manera el uso de GitHub facilitó el trabajo colaborativo
-en equipo? Den un ejemplo concreto GitHub permitió que ambos integrantes trabajáramos al mismo tiempo sin conflictos. Subíamos cambios por separado y los uníamos con seguridad. Ejemplo: facilita el trabajo colaborativo 
+en equipo? Den un ejemplo concreto GitHub permitió que ambos integrantes trabajáramos al mismo tiempo sin conflictos. Subíamos cambios por separado y los uníamos con seguridad. Ejemplo: facilita el trabajo colaborativo
+
+
 
 
 
