@@ -4,8 +4,8 @@ Codigos realizados en el parcial
 Materia: Programación 3 
 Tarea: Parcial 1
 Estudiantes: 
-Moises Abelino Ramirez Rubio
-Shelsy Rubi Melendez Rodriguez 
+Moises Abelino Ramirez Rubio SMSS2177224 Y
+Shelsy Rubi Melendez Rodriguez  SMSS096724 
 
 
 Preguntas del parcial 
