@@ -51,11 +51,11 @@ class GestorVentas:
     for producto, cantidad,total in self.ventas:
         if producto.nombre not in resumen:
             resumen[producto.nombre]= {
-                "producto": producto;
-                "cantidad": 0;
-                "ingreso": 0;
+                "producto": producto,
+                "cantidad": 0,
+                "ingreso": 0,
             }
-            
+
     resumen[producto.nombre]["Cantidad"] += cantidad
     resumen[producto.nombre["ingreso"]] += total
 
@@ -75,10 +75,19 @@ class GestorVentas:
 
     # ejemplo de uso.
 
-    if __name__=="_main_"
+    if __name__=="_main_":
+        gestor = GestorVentas()
 
 
+ # Cargar algunos productos
+    gestor.agregar_producto(Producto("P01", "Manzana", "Fruta", 0.5))
+    gestor.agregar_producto(Producto("P02", "Leche", "Lácteo", 1.2))
+    gestor.agregar_producto(Producto("P03", "Pan", "Panadería", 0.25))
 
+
+  # Registrar ventas
+    gestor.registrar_venta()
+    gestor.registrar_venta()
 
     
 
